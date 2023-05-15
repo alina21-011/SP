@@ -1,0 +1,14 @@
+.table__heading {
+    margin: 0;
+    line-height: 1.15;
+    font-weight: 600;
+    font-size: 22px;
+    text-align: start;
+    
+}
+
+@media (max-width: 970px){
+    .table__heading  {
+        font-size: 16px;
+    }
+    }

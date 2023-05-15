@@ -1,0 +1,12 @@
+.menu__title {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    margin: 0 10px 0;
+}
+
+@media (max-width: 1300px){
+    .menu__title {
+        font-size: 12px;
+    }
+    }

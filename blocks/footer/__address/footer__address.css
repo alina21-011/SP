@@ -1,0 +1,10 @@
+.footer__address {
+    font-size: 10px;
+    max-width: 170px;
+    margin: 0;
+}
+@media (max-width: 968px){
+    .footer__column-heading {
+       font-size: 12px;
+    }
+    }

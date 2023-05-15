@@ -1,0 +1,9 @@
+.rent__title {
+    margin: 0;
+    text-align: start;
+    width: 30%;
+    line-height: 1.15;
+    font-weight: 900;
+    font-size: 32px;
+    color: black;
+}

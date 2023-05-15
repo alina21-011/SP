@@ -1,0 +1,90 @@
+@import url('vendor/normalize.css');
+@import url('blocks/header/header.css');
+@import url('blocks/page/page.css');
+@import url('blocks/vizitka/vizitka.css');
+@import url('blocks/vizitka/__socseti/vizitka__socseti.css');
+@import url('blocks/menu/menu.css');
+@import url('blocks/menu/__title/menu__title.css');
+@import url('blocks/vizitka/__tel/vizitka__tel.css');
+@import url('blocks/main/main.css');
+@import url('blocks/footer/footer.css');
+@import url('blocks/options/options.css');
+@import url('blocks/table/table.css');
+@import url('blocks/table/__heading/table__heading.css');
+@import url('blocks/table/__cell/table__cell.css');
+@import url('blocks/table/__image/table__image.css');
+@import url('blocks/table/text/table__text.css');
+@import url('blocks/options/options__title.css');
+@import url('blocks/footer/__columns/footer__columns.css');
+@import url('blocks/footer/__column-heading/footer__column-heading.css');
+@import url('blocks/footer/__column-links/footer__column-links.css');
+@import url('blocks/footer/__column-link/footer__column-link.css');
+@import url('blocks/footer/__address/footer__address.css');
+@import url('blocks/logo/logo.css');
+@import url('blocks/footer/__column_content_copyright/footer__column_content_copyright.css');
+@import url('blocks/main/__rent/main__rent.css');
+@import url('blocks/main/__rent/rent__text.css');
+@import url('blocks/main/__rent/rent__title.css');
+@import url('blocks/main/__rent/rent__ul.css');
+@import url('blocks/main/__rent/rent__div.css');
+@import url('blocks/main/__rent/rent__description.css');
+@import url('blocks/main/__rent/rent__text2.css');
+@import url('blocks/main/__rent/li__item.css');
+
+
+
+/* Контейнер с ограниченными размерами, он будет выполнять роль "окна" */
+.slider-container {
+    width: 600px;
+    height:600px;
+    position: relative;
+    overflow: hidden;
+}
+/* Лента с фото, имеет неограниченную ширину и тип flex, чтобы картинки не переносились */
+.slider-track {
+    height:600px;
+    display: flex;
+    transition-duration: .5s;
+}
+/* Стили для оформления кнопок prev/next */
+.arrow {
+    width:7px;
+    height:7px;
+    border-top:#cacaca 3px solid;
+    border-right:#cacaca 3px solid;
+    position: absolute;
+}
+.arrow-bg {
+    width:30px;
+    height:30px;
+    background: #fff;
+    box-shadow: 0 0 4px 2px rgba(0,0,0,.2);
+    border-radius: 50%;
+    position: relative;
+    opacity: .8;
+    cursor: pointer;
+}
+.arrow-left .arrow {
+    transform: rotate(-135deg);
+    top:10px;
+    left:12px;
+}
+.arrow-right .arrow {
+    transform: rotate(45deg);
+    top:10px;
+    left:8px;
+}
+.arrow-left {
+    position: absolute;
+    top:50%;
+    left:10px;
+    transform: translateY(-50%);
+    z-index: 2;
+}
+.arrow-right {
+    position: absolute;
+    top:50%;
+    right:10px;
+    transform: translateY(-50%);
+    z-index: 2;
+}

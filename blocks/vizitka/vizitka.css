@@ -1,0 +1,6 @@
+.vizitka {
+    display: flex;
+    justify-content: space-between;
+    min-height: 40px;
+    flex-wrap: wrap;
+}

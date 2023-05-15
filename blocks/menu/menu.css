@@ -1,0 +1,16 @@
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 70px 0 70px;
+}
+@media (max-width: 1200px){
+    .menu {
+        padding: 0;
+    }
+    }
+
+    @media (max-width: 680px){
+        .menu {
+            padding: 0;
+        }
+        }
