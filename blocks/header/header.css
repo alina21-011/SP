@@ -3,4 +3,8 @@
     color: white;
     padding: 0 30px 10px;
     font-size: 16px;
+    position: fixed;
+    width: 97%;
+    z-index: 1;
+    
 }

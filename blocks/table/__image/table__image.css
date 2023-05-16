@@ -1,0 +1,15 @@
+.table__image {
+    max-width: 100px;
+}
+
+@media (max-width: 1000px){
+    .table__image  {
+        max-width: 70px;
+    }
+    }
+
+    @media (max-width: 750px){
+        .table__image  {
+            max-width: 50px;
+        }
+        }

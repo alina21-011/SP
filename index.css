@@ -14,6 +14,8 @@
 @import url('blocks/table/__cell/table__cell.css');
 @import url('blocks/table/__image/table__image.css');
 @import url('blocks/table/text/table__text.css');
+@import url('blocks/table/__image/table__image.css');
+@import url('blocks/table/__href/table__href.css');
 @import url('blocks/options/options__title.css');
 @import url('blocks/footer/__columns/footer__columns.css');
 @import url('blocks/footer/__column-heading/footer__column-heading.css');
@@ -30,6 +32,7 @@
 @import url('blocks/main/__rent/rent__description.css');
 @import url('blocks/main/__rent/rent__text2.css');
 @import url('blocks/main/__rent/li__item.css');
+@import url('blocks/main/main__image.css');
 
 
 
@@ -39,6 +42,10 @@
     height:600px;
     position: relative;
     overflow: hidden;
+}
+.slider-img {
+    width: 100%;
+    min-width: 600px;
 }
 /* Лента с фото, имеет неограниченную ширину и тип flex, чтобы картинки не переносились */
 .slider-track {
