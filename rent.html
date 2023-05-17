@@ -10,33 +10,36 @@
 
 <body class="page">
     <header class="header">
-
-       
-    <div class="vizitka">
-        <!-- <div class="vizitka__socseti">
-   
-           <img class="vizitka__socseti vizitka__socseti_vk" img src="/fHKC1O9s.png" alt="Vk">
-   
-           <a href="https://t.me/s_p_omsk">
-             <img class="vizitka__socseti vizitka__socseti_tg" src="/icons8-телеграм-50.png" alt="Tg">
-           </a>
-         </div>-->
-         <img class="vizitka__logo" src="./2AAEB5E4-B492-4766-9.png" height="80" alt="Логотип">
-         <a class="vizitka__tel" href="tel:+79659718360">+7 (965) 971-83-60</a>
-       </div>
-   
-
-        <div class="menu">
-            <a href="./index.html" class="menu__title">О нас</a>
-            <!--<a href="#" class="menu__title">Команда</a>-->
-            <a href="#" class="menu__title">Мастер-классы</a>
-            <a href="#" class="menu__title">Расписание</a>
-            <a href="#" class="menu__title">Аренда</a>
-            <a href="#" class="menu__title">Мероприятия</a>
-            <a href="#" class="menu__title">Подарочные сертификаты</a>
-            <a href="#" class="menu__title">Контакты</a>
+        <nav class="navbar">
+        <div class="container">
+          <div class="navbar__wrap">
+            <div class="hamb">
+              <div class="hamb__field" id="hamb">
+                <span class="bar"></span> <span class="bar"></span>
+                <span class="bar"></span>
+              </div>
+            </div>
+            <a><img class="logo vizitka__logo" href="#" id="logo" src="./2AAEB5E4-B492-4766-9.png" height="80" alt="Логотип"></a>
+           
+           
+          
+    
+          <ul class="menu" id="menu">
+            <li><a href="./index.html" class="menu__title">О нас</a></li>
+            <li><a href="#" class="menu__title">Мастер-классы</a></li>
+            <li><a href="#" class="menu__title">Расписание</a></li>
+            <li><a href="./rent.html" class="menu__title">Аренда</a></li>
+            <li><a href="#" class="menu__title">Мероприятия</a></li>
+            <li> <a href="#" class="menu__title">Подарочные сертификаты</a></li>
+            <li> <a href="#" class="menu__title">Контакты</a></li>
+          </ul>
+          <a class="vizitka__tel" href="tel:+79236878609">+7 (923) 687-86-09</a>
         </div>
-    </header>
+        </div>
+      </nav>
+    
+      </header>
+      <div class="popup" id="popup"></div>
 
     <section class="main main__rent">
         <div class="rent__div">
@@ -140,6 +143,7 @@
         </div>
     </footer>
     <script src="./index.js"></script>
+    <script src="./index2.js"></script>
 </body>
 
 </html>

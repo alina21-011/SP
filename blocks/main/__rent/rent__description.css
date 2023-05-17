@@ -4,4 +4,12 @@
     justify-content: flex-end;
     margin-right: 50px;
     margin-bottom: 30px;
+    flex-wrap: wrap;
 }
+
+@media (max-width: 750px){
+    .rent__description {
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+    }

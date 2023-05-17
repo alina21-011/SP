@@ -2,6 +2,8 @@
     display: flex;
     justify-content: space-between;
     padding: 0 70px 0 70px;
+    list-style-type:none;
+    align-items: center;
 }
 @media (max-width: 1200px){
     .menu {
@@ -9,8 +11,3 @@
     }
     }
 
-    @media (max-width: 680px){
-        .menu {
-            padding: 0;
-        }
-        }

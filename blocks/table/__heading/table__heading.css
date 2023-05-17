@@ -12,3 +12,9 @@
         font-size: 16px;
     }
     }
+
+    @media (max-width: 560px){
+        .table__heading {
+          font-size: 12px;
+        }
+        }
