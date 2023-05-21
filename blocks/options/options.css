@@ -1,9 +1,10 @@
 .options {
-    background-color: white;
+    background-color: #FFFFF0;
     font-size: 14px;
     font-weight: 300;
     color: black;
-    padding: 0 30px 70px;
+    padding: 30px 30px 70px;
+
 }
 
 @media (max-width: 500px) {

@@ -34,6 +34,13 @@
 @import url('blocks/main/__rent/li__item.css');
 @import url('blocks/main/main__image.css');
 @import url('blocks/burger/burger.css');
+@import url('blocks/formsection/formsection.css');
+@import url('blocks/formsection/__container/formsection__container.css');
+@import url('blocks/formsection/__title/formsection__title.css');
+@import url('blocks/formsection/__inputbox/formsection__inputbox.css');
+@import url('blocks/formsection/__submit/formsection__submit.css');
+@import url('blocks/formsection/__content/formsection__content.css');
+@import url('blocks/formsection/__form/formsection__form.css');
 
 
 
@@ -45,46 +52,21 @@
     overflow: hidden;
 }
 
-@media (max-width: 1200px) {
-    .slider-container {
-        width: 500px;
-    }
+.slider-item {
+    background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  
+}
+.first {
+    background-image: url('./photo19.jpg');
 }
 
-
-@media (max-width: 970px) {
-    .slider-container {
-        width: 400px;
-    }
+.second {
+    background-image: url('./photo18.jpeg');
 }
 
-@media (max-width: 870px) {
-    .slider-container {
-        width: 320px;
-    }
-}
-
-.slider-img {
-    width: 600px;
-}
-
-@media (max-width: 1200px) {
-    .slider-img {
-        width: 500px;
-    }
-}
-
-@media (max-width: 970px) {
-    .slider-img {
-        width: 400px;
-    }
-}
-
-@media (max-width: 870px) {
-    .slider-img {
-        width: 320px;
-    }
-}
 
 /* Лента с фото, имеет неограниченную ширину и тип flex, чтобы картинки не переносились */
 .slider-track {

@@ -1,0 +1,38 @@
+.formsection__input {
+    height: 100%; /* растягиваем на всю высоту контейнера 50px */
+    width: 80%; /* растягиваем на всю ширину */
+    border: none;
+    border-bottom: 1px solid #d4d4d4;
+    border-radius: 5px; /* скругляем края */
+
+    padding: 0 20px; /* отступ справа и слева 20px */
+    margin-right: 20px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    min-height: 50px;
+
+}
+
+.formsection__inputbox {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+   
+} 
+
+
+@media (max-width: 767px) {
+    .formsection__input {
+        margin-bottom: 25px;
+        margin-top: 25px;
+        margin-right: 0;
+       
+    }
+    }
+
+    @media (max-width: 767px) {
+        .formsection__inputbox {
+          flex-wrap: wrap;
+        }
+        }

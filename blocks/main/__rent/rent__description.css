@@ -1,15 +1,15 @@
 .rent__description {
-    display: flex;
-    margin-top: 30px;
-    justify-content: flex-end;
-    margin-right: 50px;
-    margin-bottom: 30px;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 320px 484px;
+    justify-items:end;
 }
 
-@media (max-width: 750px){
-    .rent__description {
-        margin-right: 10px;
-        margin-bottom: 10px;
-    }
-    }
+
+
+
+@media (max-width: 767px) {
+.rent__description{
+    grid-template-columns: 520px;
+    justify-items: center;
+}
+}

@@ -1,0 +1,26 @@
+.formsection__submit {
+    color: #fff;
+    font-size: 18px;
+    background: #D8CA9C;
+    outline: none;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 7px;
+    transition: 0.2s;
+    text-align: center;
+    width: 100%;
+    max-width: 300px;
+    margin-top: 30px;
+}
+
+.formsection__submit:hover {
+    background: rgb(247,188,29 );
+    cursor: pointer;
+  }
+
+
+.formsection__button {
+    margin: auto;
+    width: 100%;
+    max-width: 300px;
+}

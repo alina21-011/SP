@@ -1,0 +1,14 @@
+.formsection__container {
+    color: black;
+ 
+/* делаем колонки в ряд */
+  align-items: center; /* выравниваем по центру */
+  justify-content: space-between; /* колонки растянутся на всю ширину */
+  background: #fff;
+  padding: 40px;
+  border-radius: 5px;
+  box-shadow: 8px 8px 8px 8px rgba(34, 60, 80, 0.2);
+  flex-wrap: wrap;
+  min-height: 300px;
+}
+
