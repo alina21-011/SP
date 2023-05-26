@@ -1,0 +1,18 @@
+.masterklass__text {
+    width: 100%;
+    font-size: 22px;
+    margin: 0;
+    line-height: 1.5;
+}
+
+@media (max-width: 1300px){
+    .masterklass__text{
+        font-size: 18px;
+    }
+    }
+
+    @media (max-width: 600px){
+        .masterklass__text{
+            font-size: 16px;
+        }
+        }

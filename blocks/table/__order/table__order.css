@@ -1,0 +1,11 @@
+.table__order {
+    background-color: rgb(215, 215, 215);
+    max-width: 200px;
+    margin: auto;
+    height: 40px;
+    border-radius: 20px;;
+    padding-top: 1px;
+    margin-top: 10px;
+    border: 1px solid rgb(40,40,40);
+   
+}

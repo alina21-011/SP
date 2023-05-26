@@ -19,15 +19,21 @@
               <span class="bar"></span>
             </div>
           </div>
-          <a><img class="logo vizitka__logo" href="#" id="logo" src="./2AAEB5E4-B492-4766-9.png" height="80"
+          <a href="#" ><img class="logo vizitka__logo" id="logo" src="./images/2AAEB5E4-B492-4766-9.png" height="80"
               alt="Логотип"></a>
-
-
-
 
           <ul class="menu" id="menu">
             <li><a href="#" class="menu__title">О нас</a></li>
-            <li><a href="#" class="menu__title">Мастер-классы</a></li>
+            <li>
+            <div class="dropdown">
+            <a href="./mk-art.html" class="menu__title">Мастер-классы</a>
+            <div class="dropdown-content">
+              <a class="dropdown-link" href="./mk-art.html">Творческие</a>
+              <a href  class="dropdown-link">Интеллектуальные</a>
+              <a href class="dropdown-link">Развлекательные</a>
+            </div>
+          </div>
+        </li>
             <li><a href="#" class="menu__title">Расписание</a></li>
             <li><a href="./rent.html" class="menu__title">Аренда</a></li>
             <li><a href="#" class="menu__title">Мероприятия</a></li>
@@ -42,27 +48,29 @@
   </header>
   <div class="popup" id="popup"></div>
   <section class="main">
-    <img class="main__image" src="./tEVkQmXGbM4.jpg">
+    <img class="main__image" src="./images/tEVkQmXGbM4.jpg">
   </section>
   <section class="options">
     <h2 class="options__title">Варианты взаимодействия с нами</h2>
     <div class="table">
       <div class="table__cell">
-        <img class="table__image" src="./__16.svg">
+        <a href="./mk-art.html" class="table__href">
+        <img class="table__image" src="./images/__16.svg">
         <h3 class="table__heading">Мероприятия по расписанию</h3>
         <p class="table__text">Сборный мастер-класс/игра/мероприятие по установленному расписанию (можно прийти
           самостоятельно, с кем-то)</p>
+          </a>
       </div>
 
       <div class="table__cell">
-        <img class="table__image" src="./__1.svg">
+        <img class="table__image" src="./images/__1.svg">
         <h3 class="table__heading">Мероприятие для вас</h3>
         <p class="table__text">Мастер-класс/игра
           для вашей компании.</p>
       </div>
 
       <div class="table__cell">
-        <img class="table__image" src="./car-svgrepo-com.svg">
+        <img class="table__image" src="./images/car-svgrepo-com.svg">
         <h3 class="table__heading">Выездное мероприятие</h3>
         <p class="table__text">Выездной мастер-класс/игра в любом месте: ваш дом, дача, кафе, беседка, парк
           или любое другое место (+1500 руб.)</p>
@@ -70,21 +78,21 @@
 
       <div class="table__cell">
         <a href="./rent.html" class="table__href">
-          <img class="table__image" src="./__3.svg">
+          <img class="table__image" src="./images/__3.svg">
           <h3 class="table__heading">Аренда</h3>
           <p class="table__text">Аренда пространства под ваше мероприятие (от 700 руб./час)</p>
         </a>
       </div>
 
       <div class="table__cell">
-        <img class="table__image" src="./__7.svg">
+        <img class="table__image" src="./images/__7.svg">
         <h3 class="table__heading">Закрытый Клуб SP</h3>
         <p class="table__text">Всестороннее развитие
           по 15 направлениям.</p>
       </div>
 
       <div class="table__cell">
-        <img class="table__image" src="./__9.svg">
+        <img class="table__image" src="./images/__9.svg">
         <h3 class="table__heading">Сертификаты</h3>
         <p class="table__text">В печатном и электронном виде,
           на номинальную сумму или определенное мероприятие</p>
@@ -122,7 +130,10 @@
   <footer class="footer">
     <div class="footer__columns">
       <div class="footer__column footer__column_content_copyright">
-        <img class="logo logo_place_footer" src="./2AAEB5E4-B492-4766-9.png" alt="Логотип">
+
+      <a href="#">
+        <img class="logo logo_place_footer" src="./images/2AAEB5E4-B492-4766-9.png" alt="Логотип">
+        </a>
         <p class="footer__address">Гагарина 14, БЦ "На Гагарина", 4 подъезд, 8 этаж, офис 8.1</p>
       </div>
       <nav class="footer__column footer__column_content_info">
@@ -143,21 +154,21 @@
       <nav class="footer__column footer__column_content_social">
         <h3 class="footer__column-heading">Соцсети</h3>
         <ul class="footer__column-links">
-          <!--<li>
-            <a href="#" class="footer__column-link opacity">
-              <img src="" alt="Телеграм" class="footer__social-icon">
-              Facebook
+          <li>
+            <a href="https://t.me/s_p_omsk" class="footer__column-link opacity">
+              <img src="./images/icons8-телеграм.svg" height="16" alt="Телеграм" class="footer__social-icon">
+              Telegram
             </a>
-          </li> -->
+          </li> 
           <li>
             <a href="https://vk.com/s.p.omsk" class="footer__column-link opacity">
-              <img src="./vk_color_white.svg" alt="Вконтакте" class="footer__social-icon">
+              <img src="./images/vk_color_white.svg" alt="Вконтакте" class="footer__social-icon">
               Вконтакте
             </a>
           </li>
           <li>
             <a href="https://instagram.com/sp.omsk" class="footer__column-link opacity">
-              <img src="./instagram_color_white.svg" alt="Инстаграм" class="footer__social-icon">
+              <img src="./images/instagram_color_white.svg" alt="Инстаграм" class="footer__social-icon">
               Instagram
             </a>
           </li>

@@ -13,6 +13,10 @@
 
 }
 
+.formsection__inputbox:focus {
+ color: #000;
+ border: #000;
+}
 .formsection__inputbox {
     margin: auto;
     display: flex;

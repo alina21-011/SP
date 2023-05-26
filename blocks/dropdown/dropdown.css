@@ -1,0 +1,15 @@
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+@media (max-width: 600px){
+    .dropdown  {
+        display:block
+    }
+    }
+

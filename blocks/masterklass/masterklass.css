@@ -1,0 +1,13 @@
+.masterklass {
+    padding: 150px 60px 0 ;
+    color: black;
+    max-width: 1300px;
+    margin: auto;
+}
+
+
+@media (max-width: 600px){
+    .masterklass  {
+        padding: 65px 0px 0 ;
+    }
+    }

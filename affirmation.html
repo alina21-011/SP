@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>Свободное пространство</title>
+</head>
+
+<body class="page">
+    <header class="header">
+        <nav class="navbar">
+            <div class="container">
+                <div class="navbar__wrap">
+                    <div class="hamb">
+                        <div class="hamb__field" id="hamb">
+                            <span class="bar"></span> <span class="bar"></span>
+                            <span class="bar"></span>
+                        </div>
+                    </div>
+                    <a href="#"><img class="logo vizitka__logo" id="logo" src="./images/2AAEB5E4-B492-4766-9.png"
+                            height="80" alt="Логотип"></a>
+
+                    <ul class="menu" id="menu">
+                        <li><a href="#" class="menu__title">О нас</a></li>
+                        <li>
+                            <div class="dropdown">
+                                <a href="./mk-art.html" class="menu__title">Мастер-классы</a>
+                                <div class="dropdown-content">
+                                    <a class="dropdown-link" href="./mk-art.html">Творческие</a>
+                                    <a href class="dropdown-link">Интеллектуальные</a>
+                                    <a href class="dropdown-link">Развлекательные</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li><a href="#" class="menu__title">Расписание</a></li>
+                        <li><a href="./rent.html" class="menu__title">Аренда</a></li>
+                        <li><a href="#" class="menu__title">Мероприятия</a></li>
+                        <li> <a href="#" class="menu__title">Подарочные сертификаты</a></li>
+                        <li> <a href="#" class="menu__title">Контакты</a></li>
+                    </ul>
+                    <a class="vizitka__tel" href="tel:+79236878609">+7 (923) 687-86-09</a>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+    <section class="masterklass">
+
+        <div class="masterklass__container">
+
+            <div class="slideshow-container">
+
+                <!-- Full-width images with number and caption text -->
+                <div class="mySlides fade">
+
+                    <img class="test" src="./images/affirmation/photo_2023-05-23 15.13.07.jpeg">
+
+                </div>
+
+                <div class="mySlides fade">
+                    <img class="test" src="./images/affirmation/photo_2023-05-23 15.13.11.jpeg" >
+                </div>
+
+                <div class="mySlides fade">
+                    <img class="test" src="./images/affirmation/photo_2023-05-23 15.13.15.jpeg" >
+                </div>
+
+                <div class="mySlides fade">
+                    <img class="test" src="./images/affirmation/photo_2023-05-26 17.13.36.jpeg" >
+                </div>
+
+                <div class="mySlides fade">
+                    <img class="test" src="./images/affirmation/photo_2023-05-26 17.13.40.jpeg" >
+                </div>
+
+                <div class="mySlides fade">
+                    <img class="test" src="./images/affirmation/photo_2023-05-26 17.13.44.jpeg" >
+                </div>
+
+                <!-- Next and previous buttons -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <h1 class="masterklass__title">Картина Аффирмация</h1>
+            <div class="masterklass__text">
+                <p class="masterklass__text">Вместе с вами мы познакомимся, научимся рисовать акрилом и невероятно проведём время.</p>
+
+                <li>Займёмся цветотерапией. Подберем нужный цвет - это важнейшая составляющая картины.</li>
+                <li>Напишем на картине вдохновляющую или мотивирующую фразу.
+                    Чем чаще вы будете смотреть на неё, тем сильнее ваша установка закрепится в подсознании.</li>
+
+                <p class="masterklass__text"><br>В итоге:</br>
+                    <li>Вы отдохнёте и расслабитесь.</li>
+                    <li>Вместе погрузимся в атмосферу творчества.</li>
+                    <li>Послушаем классную музыку и напишем картину, которую вы заберете домой.</li></p>
+
+        
+            </div>
+            
+          
+            <p class="masterklass__text">Возрастная категория: от 14 лет
+                <br>Продолжительность: 2,5 часа</br>
+            </p>
+  
+            <div>
+            <h3 class="masterklass__title_table">Стоимость</h3>
+    <table class="masterklass__table" >
+        <tr><th>Размер</th><th>Картон</th><th>Подрамник</th></tr>
+        <tr><td>30*30</td><td>1500 руб</td><td>1700 руб</td></tr> 
+        <tr><td>30*40</td><td>1600 руб</td><td>1900 руб</td></tr> 
+        <tr><td>40*60</td><td>1800 руб</td><td>2100 руб</td></tr> 
+            </table>
+           
+        </div>
+        
+        <p></p>
+    </section>
+
+    <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            var i;
+            var slides = document.querySelectorAll(".mySlides");
+            var dots = document.querySelectorAll(".dot");
+            if (n > slides.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = slides.length }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].classList.add('active');
+        }
+    </script>
+</body>
+
+</html>

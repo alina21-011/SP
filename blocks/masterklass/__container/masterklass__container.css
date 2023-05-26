@@ -1,0 +1,14 @@
+.masterklass__container {
+    display: grid;
+    grid-template-columns: 45% 55%;
+    grid-column-gap: 50px;
+    grid-row-gap: 20px;
+}
+
+@media (max-width: 900px){
+    .masterklass__container  {
+        grid-template-columns:auto;
+        padding: 0 10px 0;
+        grid-gap: 30px;
+    }
+    }
