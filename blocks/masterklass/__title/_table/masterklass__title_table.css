@@ -2,6 +2,7 @@
     font-size: 24px;
     text-align: left;
     margin: 0;
+  
 }
 
 @media (max-width: 1300px){
@@ -10,8 +11,10 @@
     }
     }
 
-    @media (max-width: 8590px){
+    @media (max-width: 860px){
         .masterklass__title_table{
             font-size: 18px;
+            text-align-last: center;
+            margin-bottom: 7px;
         }
         }

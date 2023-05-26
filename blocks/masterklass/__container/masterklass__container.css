@@ -8,7 +8,7 @@
 @media (max-width: 900px){
     .masterklass__container  {
         grid-template-columns:auto;
-        padding: 0 10px 0;
+
         grid-gap: 30px;
     }
     }

@@ -1,7 +1,7 @@
 .rent__description {
     display: grid;
-    grid-template-columns: 320px 484px;
-    justify-items:end;
+    grid-template-columns: 40% 60%;
+
 }
 
 

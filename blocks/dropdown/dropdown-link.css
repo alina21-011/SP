@@ -5,4 +5,15 @@
     text-decoration: none;
     display: block;
     font-size: 14px;
+    font-weight: 500;
+}
+
+@media (max-width: 1000px) {
+    .dropdown-link {
+        color: black;
+        font-weight: 700;
+        margin: 0;
+
+    }
+  
 }

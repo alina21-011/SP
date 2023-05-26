@@ -44,6 +44,7 @@
 @import url('blocks/mk-art/mk-art.css');
 @import url('blocks/table/__image/table__image_art.css');
 @import url('blocks/table/__order/table__order.css');
+@import url('blocks/table/__order/table__order_mk.css');
 @import url('blocks/table/text/table__text_wh.css');
 @import url('blocks/dropdown/dropdown-content.css');
 @import url('blocks/dropdown/dropdown.css');
@@ -55,7 +56,8 @@
 @import url('blocks//masterklass/__title/masterklass__title.css');
 @import url('blocks//masterklass/__table/masterklass__table.css');
 @import url('blocks//masterklass/__title/_table/masterklass__title_table.css');
-
+@import url('blocks//masterklass/__text/masterklass__text_subtitle.css');
+@import url('blocks//masterklass/__border/masterklass__border.css');
 
 
 /* Контейнер с ограниченными размерами, он будет выполнять роль "окна" */
@@ -214,9 +216,6 @@
     transition: background-color 0.6s ease;
   }
   
-  .active, .dot:hover {
-    background-color: #717171;
-  }
   
   /* Fading animation */
   .fade {

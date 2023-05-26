@@ -1,0 +1,18 @@
+.table__order_mk {
+
+    max-width: 300px;
+
+    height: 40px;
+    border-radius: 20px;;
+    padding-top: 1px;
+    margin-top: 50px;
+    border: 1px solid rgba(49, 49, 49, 0.613);
+    cursor: pointer;
+    margin: auto;
+    margin-top: 50px
+}
+
+
+.table__order_mk:hover {
+    background-color: rgba(238, 231, 179, 0.955);
+}

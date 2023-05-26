@@ -12,3 +12,13 @@
 .dropdown-content a:hover {
     background-color: #ddd;
 }
+
+@media (max-width: 1000px) {
+    .dropdown-content {
+     background-color: white;
+     padding: 0;
+
+    }
+  
+}
+
