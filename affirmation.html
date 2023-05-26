@@ -19,11 +19,11 @@
                             <span class="bar"></span>
                         </div>
                     </div>
-                    <a href="#"><img class="logo vizitka__logo" id="logo" src="./images/2AAEB5E4-B492-4766-9.png"
+                    <a href="./index.html"><img class="logo vizitka__logo" id="logo" src="./images/2AAEB5E4-B492-4766-9.png"
                             height="80" alt="Логотип"></a>
 
                     <ul class="menu" id="menu">
-                        <li><a href="#" class="menu__title">О нас</a></li>
+                        <li><a href="./index.html" class="menu__title">О нас</a></li>
                         <li>
                             <div class="dropdown">
                                 <a href="./mk-art.html" class="menu__title">Мастер-классы</a>
@@ -46,6 +46,7 @@
         </nav>
 
     </header>
+    <div class="popup" id="popup"></div>
     <section class="masterklass">
 
         <div class="masterklass__container">
@@ -117,7 +118,56 @@
         
         <p></p>
     </section>
+    <footer class="footer">
+        <div class="footer__columns">
+          <div class="footer__column footer__column_content_copyright">
+    
+          <a href="./index.html">
+            <img class="logo logo_place_footer" src="./images/2AAEB5E4-B492-4766-9.png" alt="Логотип">
+            </a>
+            <p class="footer__address">Гагарина 14, БЦ "На Гагарина", 4 подъезд, 8 этаж, офис 8.1</p>
+          </div>
+          <nav class="footer__column footer__column_content_info">
+            <h3 class="footer__column-heading">О пространстве</h3>
+            <ul class="footer__column-links">
+              <li><a href="./index.html" class="footer__column-link opacity">Главная</a></li>
+              <li><a href="./mk-art.html" class="footer__column-link opacity">Мастер-классы</a></li>
+              <li><a href="#" class="footer__column-link opacity">Расписание</a></li>
+              <li><a href="./rent.html" class="footer__column-link opacity">Аренда</a></li>
+              <li><a href="#" class="footer__column-link opacity">Мероприятия</a></li>
+              <li><a href="#" class="footer__column-link opacity">Подарочные сертификаты</a></li>
+              <li><a href="#" class="footer__column-link opacity">Контакты</a></li>
+    
+            </ul>
+          </nav>
+    
+    
+          <nav class="footer__column footer__column_content_social">
+            <h3 class="footer__column-heading">Соцсети</h3>
+            <ul class="footer__column-links">
+              <li>
+                <a href="https://t.me/s_p_omsk" class="footer__column-link opacity">
+                  <img src="./images/icons8-телеграм.svg" height="16" alt="Телеграм" class="footer__social-icon">
+                  Telegram
+                </a>
+              </li> 
+              <li>
+                <a href="https://vk.com/s.p.omsk" class="footer__column-link opacity">
+                  <img src="./images/vk_color_white.svg" alt="Вконтакте" class="footer__social-icon">
+                  Вконтакте
+                </a>
+              </li>
+              <li>
+                <a href="https://instagram.com/sp.omsk" class="footer__column-link opacity">
+                  <img src="./images/instagram_color_white.svg" alt="Инстаграм" class="footer__social-icon">
+                  Instagram
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
 
+      </footer>
     <script>
         var slideIndex = 1;
         showSlides(slideIndex);
@@ -146,6 +196,7 @@
             dots[slideIndex - 1].classList.add('active');
         }
     </script>
+     <script src="./index2.js"></script>
 </body>
 
 </html>
