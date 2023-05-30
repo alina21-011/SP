@@ -3,6 +3,7 @@
     grid-template-columns: 45% 55%;
     grid-column-gap: 50px;
     grid-row-gap: 20px;
+    padding-bottom: 40px;
 }
 
 @media (max-width: 900px){

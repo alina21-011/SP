@@ -2,11 +2,11 @@
 
     max-width: 300px;
 
-    height: 40px;
+    height: 50px;
     border-radius: 20px;;
     padding-top: 1px;
     margin-top: 50px;
-    border: 1px solid rgba(49, 49, 49, 0.613);
+    border: 2px solid rgba(49, 49, 49, 0.613);
     cursor: pointer;
     margin: auto;
     margin-top: 50px
@@ -14,5 +14,5 @@
 
 
 .table__order_mk:hover {
-    background-color: rgba(238, 231, 179, 0.955);
+    background-color: rgba(101, 101, 97, 0.955);
 }

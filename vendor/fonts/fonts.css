@@ -26,3 +26,52 @@
   src: url("./Inter-Black.woff2?v=3.19") format("woff2"),
        url("./Inter-Black.woff?v=3.19") format("woff");
 }
+
+@font-face {
+	font-family: 'IntroDemo-BlackCAPS';
+
+	src: 
+		url('./introdemo-blackcaps.woff2') format('woff2'), /* Super Modern Browsers */
+		url('./introdemo-blackcaps.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('./introdemo-blackcaps.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('./introdemo-blackcaps.svg#introdemo-blackcaps') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+
+
+
+@font-face { 
+  font-family: "Intro Light";
+  src: 
+		url('./Intro-Light.woff2') format('woff2');
+}
+
+@font-face { 
+  font-family: "introcondlightfree";
+  src: 
+		url('./Intro-Light-Caps.woff2') format('woff2');
+}
+
+@font-face { 
+  font-family: "Intro-Book-Caps";
+  src: 
+		url('./Intro-Book-Caps.woff2') format('woff2');
+}
+
+@font-face { 
+  font-family: "Intro-regular";
+  src: 
+		url('./Intro-Regular.woff2') format('woff2');
+}
+
+@font-face { 
+  font-family: "Intro-Book";
+  src: 
+		url('./Intro-Book.woff2') format('woff2');
+}
+
+@font-face { 
+  font-family: "Intro-italic";
+  src: 
+		url('./IntroLightItalic.woff') format('woff');
+}

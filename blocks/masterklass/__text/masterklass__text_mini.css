@@ -1,0 +1,14 @@
+.masterklass__text_mini {
+     font-family: "Intro Light";
+     font-size: 16px;
+     line-height: 1.5;
+     
+     
+    
+}
+
+@media (max-width: 600px){
+    .masterklass__text_mini{
+        font-size: 12px;
+    }
+    }
