@@ -8,7 +8,7 @@
   <title>Свободное пространство</title>
 </head>
 
-<body class="page">
+<body class=" page page-main">
   <header class="header">
     <nav class="navbar">
       <div class="container">
@@ -19,27 +19,27 @@
               <span class="bar"></span>
             </div>
           </div>
-          <a href="#" ><img class="logo vizitka__logo" id="logo" src="./images/2AAEB5E4-B492-4766-9.png" height="80"
+          <a href="#"><img class="logo vizitka__logo" id="logo" src="./images/2AAEB5E4-B492-4766-9.png" height="80"
               alt="Логотип"></a>
 
           <ul class="menu" id="menu">
             <li><a href="#" class="menu__title">О нас</a></li>
-            
+
 
 
             <div class="dropdown">
-            <div class="menu__title">Мастер-классы </div>
+              <div class="menu__title">Мастер-классы </div>
 
-            <div class="dropdown-content">
-              <a class="dropdown-link" href="./mk-art.html">Творческие</a>
-              <a href  class="dropdown-link">Интеллектуальные</a>
-              <a href class="dropdown-link">Развлекательные</a>
+              <div class="dropdown-content">
+                <a class="dropdown-link" href="./mk-art.html">Творческие</a>
+                <a href="mk-intellect.html" class="dropdown-link">Интеллектуальные</a>
+                <a href class="dropdown-link">Развлекательные</a>
+              </div>
             </div>
-          </div>
 
 
 
-        
+
             <li><a href="#" class="menu__title">Расписание</a></li>
             <li><a href="./rent.html" class="menu__title">Аренда</a></li>
             <li><a href="#" class="menu__title">Закрытый клуб</a></li>
@@ -60,18 +60,20 @@
     <div class="table">
       <div class="table__cell">
         <a href="./mk-art.html" class="table__href">
-        <img class="table__image" src="./images/__16.svg">
-        <h3 class="table__heading">Мероприятия по расписанию</h3>
-        <p class="table__text">Сборный мастер-класс/игра/мероприятие по установленному расписанию<br>(можно прийти
-          самостоятельно, с кем-то)</p>
-          </a>
+          <img class="table__image" src="./images/__16.svg">
+          <h3 class="table__heading">Мероприятия по расписанию</h3>
+          <p class="table__text">Сборный мастер-класс/игра/мероприятие по установленному расписанию<br>(можно прийти
+            самостоятельно, с кем-то)</p>
+        </a>
       </div>
 
       <div class="table__cell">
+        <a href="./mk-art.html" class="table__href">
         <img class="table__image" src="./images/__1.svg">
         <h3 class="table__heading">Мероприятия для вас</h3>
         <p class="table__text">Мастер-класс/игра
           для вашей компании</p>
+        </a>
       </div>
 
       <div class="table__cell">
@@ -115,12 +117,12 @@
 
       <div class="formsection__content">
         <!-- Форма обратной связи -->
-        <form class="formsection__form" action="telegram.php" method="POST">
+        <form id="telegram" class="formsection__form" action="telegram.php" method="POST">
 
           <!-- Каждый input для выравнивания вкладываем в блок input-box -->
           <div class="formsection__inputbox">
-            <input class="formsection__input" type="text" name="name" placeholder="Ваше имя" required/>
-        
+            <input class="formsection__input" type="text" name="name" placeholder="Ваше имя" required />
+
             <input class="formsection__input" type="tel" name="phone" placeholder="Ваш телефон" required />
           </div>
           <div class="formsection__button">
@@ -136,8 +138,8 @@
     <div class="footer__columns">
       <div class="footer__column footer__column_content_copyright">
 
-      <a href="#">
-        <img class="logo logo_place_footer" src="./images/2AAEB5E4-B492-4766-9.png" alt="Логотип">
+        <a href="#">
+          <img class="logo logo_place_footer" src="./images/2AAEB5E4-B492-4766-9.png" alt="Логотип">
         </a>
         <p class="footer__address">Гагарина 14, БЦ "На Гагарина", 4 подъезд, 8 этаж, офис 8.1</p>
       </div>
@@ -164,7 +166,7 @@
               <img src="./images/icons8-телеграм.svg" height="16" alt="Телеграм" class="footer__social-icon">
               Telegram
             </a>
-          </li> 
+          </li>
           <li>
             <a href="https://vk.com/s.p.omsk" class="footer__column-link opacity">
               <img src="./images/vk_color_white.svg" alt="Вконтакте" class="footer__social-icon">
@@ -180,34 +182,12 @@
         </ul>
       </nav>
     </div>
-    <script src="./index2.js"></script>
+   
   </footer>
-
-<?php
-
-$name = $_POST['name'];
-$phone = $_POST['phone'];
-$token = "5924992534:AAEeiwtGX31l6F6oEAzRQICK8Fe5Pj6-k3M";
-$chat_id = "-1001835400744";
-$arr = array(
-  'Имя пользователя: ' => $name,
-  'Телефон: ' => $phone,
-
-);
-
-foreach($arr as $key => $value) {
-  $txt .= "<b>".$key."</b> ".$value."%0A";
-};
-
-$sendToTelegram = fopen("https://api.telegram.org/bot{$token}/sendMessage?chat_id={$chat_id}&parse_mode=html&text={$txt}","r");
-
-if ($sendToTelegram && $sendToTelegram2) {
-  header('Location: thanks.html');
-} else {
-  echo "Error";
-}
-?>
+  
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="./form.js"></script>
+  <script src="./index2.js"></script>
 </body>
 
 </html>
-

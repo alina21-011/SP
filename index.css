@@ -2,6 +2,7 @@
 @import url('vendor/fonts/fonts.css');
 @import url('blocks/header/header.css');
 @import url('blocks/page/page.css');
+@import url('blocks/page/page-main.css');
 @import url('blocks/vizitka/vizitka.css');
 @import url('blocks/vizitka/__socseti/vizitka__socseti.css');
 @import url('blocks/menu/menu.css');
@@ -19,6 +20,7 @@
 @import url('blocks/table/__href/table__href.css');
 @import url('blocks/options/options__title.css');
 @import url('blocks/footer/__columns/footer__columns.css');
+@import url('blocks/footer/__column/footer__column.css');
 @import url('blocks/footer/__column-heading/footer__column-heading.css');
 @import url('blocks/footer/__column-links/footer__column-links.css');
 @import url('blocks/footer/__column-link/footer__column-link.css');
@@ -61,9 +63,19 @@
 @import url('blocks//masterklass/__border/masterklass__border.css');
 @import url('blocks/masterklass/__text/masterklass__text_mini.css');
 @import url('blocks/masterklass/__text/masterklass__text_bottom.css');
+/*@import url('blocks/popup/popup.css');
+@import url('blocks/popup/__container/popup__container.css');
+@import url('blocks/popup/_opened/popup_opened.css');
+@import url('blocks/popup/__close/popup__close.css');
+@import url('blocks/popup/__form/popup__form.css');
+@import url('blocks/popup/__input-save/popup__input-save.css');
+@import url('blocks/popup/__title/popup__title.css');*/
+
+
 
 * {
   margin: 0;
+  padding: 0;
 }
 /* Контейнер с ограниченными размерами, он будет выполнять роль "окна" */
 .slider-container {

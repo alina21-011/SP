@@ -19,11 +19,11 @@
               <span class="bar"></span>
             </div>
           </div>
-          <a href="#" ><img class="logo vizitka__logo" id="logo" src="./images/2AAEB5E4-B492-4766-9.png" height="80"
+          <a href="./index.html" ><img class="logo vizitka__logo" id="logo" src="./images/2AAEB5E4-B492-4766-9.png" height="80"
               alt="Логотип"></a>
 
           <ul class="menu" id="menu">
-            <li><a href="#" class="menu__title">О нас</a></li>
+            <li><a href="./index.html" class="menu__title">О нас</a></li>
             
 
 
@@ -32,7 +32,7 @@
 
             <div class="dropdown-content">
               <a class="dropdown-link" href="./mk-art.html">Творческие</a>
-              <a href  class="dropdown-link">Интеллектуальные</a>
+              <a href="mk-intellect.html" class="dropdown-link">Интеллектуальные</a>
               <a href class="dropdown-link">Развлекательные</a>
             </div>
           </div>
@@ -117,29 +117,29 @@
 
     <section class="formsection">
 
-        <div class="formsection__container">
-    
-          <!-- Заголовок для формы -->
-          <div class="formsection__title">Забронировать пространство</div>
-    
-          <div class="formsection__content">
-            <!-- Форма обратной связи -->
-            <form class="formsection__form" action="#">
-    
-              <!-- Каждый input для выравнивания вкладываем в блок input-box -->
-              <div class="formsection__inputbox">
-                <input class="formsection__input" type="text" placeholder="Ваше имя" required/>
-            
-                <input class="formsection__input" type="text" placeholder="Ваш телефон" required />
-              </div>
-              <div class="formsection__button">
-                <input class="formsection__submit" type="submit" value="Отправить заявку" />
-              </div>
-            </form>
-          </div>
+      <div class="formsection__container">
+  
+        <!-- Заголовок для формы -->
+        <div class="formsection__title">Забронировать пространство</div>
+  
+        <div class="formsection__content">
+          <!-- Форма обратной связи -->
+          <form id="telegram" class="formsection__form" action="telegram.php" method="POST">
+  
+            <!-- Каждый input для выравнивания вкладываем в блок input-box -->
+            <div class="formsection__inputbox">
+              <input class="formsection__input" type="text" name="name" placeholder="Ваше имя" required />
+  
+              <input class="formsection__input" type="tel" name="phone" placeholder="Ваш телефон" required />
+            </div>
+            <div class="formsection__button">
+              <input class="formsection__submit" type="submit" value="Отправить заявку" />
+            </div>
+          </form>
         </div>
-    
-      </section>
+      </div>
+  
+    </section>
     
     <footer class="footer">
         <div class="footer__columns">
@@ -190,6 +190,9 @@
     <script src="./index.js"></script>
     <script src="./index2.js"></script>
     <script src="./karusel.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="./form-rent.js"></script>
+
 </body>
 
 </html>
