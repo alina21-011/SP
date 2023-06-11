@@ -46,7 +46,7 @@
         </nav>
 
     </header>
-    <div class="popup" id="popup"></div>
+    <div class="popup__menu" id="popup"></div>
     <section class="masterklass">
         <h1 class="masterklass__title">Картина-aффирмация</h1>
         <p class="masterklass__text masterklass__text_subtitle">Мы познакомимся, научимся рисовать акрилом и невероятно проведём время</p>
@@ -109,7 +109,7 @@
                 <br>Продолжительность:<strong> 2,5 часа</strong></br>
                 <div class="table__order_mk">
                     <p class="table__text_wh">Записаться</p>
-                  </div>
+                </div>
             </div>
   
             <div>
@@ -201,7 +201,7 @@
 
       </footer>
 
-     <!--<div class="popup ">
+     <div class="popup" id="popup_submit">
       <div class="popup__container">
         <button class="popup__close popup__close_add" type="reset" aria-label="Закрыть"></button>
       <h2 class="popup__title">Записаться на мастер-класс</h2>
@@ -209,12 +209,18 @@
        
           <input class="formsection__input popup__input" type="text" name="name" placeholder="Ваше имя" required />
           <input class="formsection__input" type="tel" name="phone" placeholder="Ваш телефон" required />
-            <button type="submit" class="popup__input-save popup__input-add popup__input-save_disabled" disabled="">Отправить заявку</button>
-          </form>
-    </div>
-  </div>--> 
-  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 
+          <div class="formsection__button">
+            <input class="formsection__submit" type="submit" value="Отправить заявку" />
+          </div>
+          <span>
+            <input class="hidenform" type="hidden" name="url" />
+            </span> 
+           </form>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="./form.js"></script>
     <script src="./karusel.js"></script>
      <script src="./index2.js"></script>
      

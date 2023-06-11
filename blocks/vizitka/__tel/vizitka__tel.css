@@ -10,9 +10,8 @@
 }
 
 .vizitka__tel_img {
-    padding-left: 30px;
-    padding-right: 20px;
-    padding-top: 8px;
+  margin-top: 10px;
+    width: 80px;
 }
 
 @media (max-width: 1000px) {

@@ -9,7 +9,10 @@
 </head>
 
 <body class=" page page-main">
-  <header class="header">
+
+
+
+   <header class="header">
     <nav class="navbar">
       <div class="container">
         <div class="navbar__wrap">
@@ -19,14 +22,13 @@
               <span class="bar"></span>
             </div>
           </div>
-          <a href="#"><img class="logo vizitka__logo" id="logo" src="./images/2AAEB5E4-B492-4766-9.png" height="80"
+          <a href="#"><img class="logo vizitka__logo" id="logo" src="./images/Sp_white.png" height="80"
               alt="Логотип"></a>
 
+           
+  
           <ul class="menu" id="menu">
             <li><a href="#" class="menu__title">О нас</a></li>
-
-
-
             <div class="dropdown">
               <div class="menu__title">Мастер-классы </div>
 
@@ -40,19 +42,26 @@
 
 
 
-            <li><a href="#" class="menu__title">Расписание</a></li>
+            <li><a href="https://t.me/s_p_omsk/310" class="menu__title">Расписание</a></li>
             <li><a href="./rent.html" class="menu__title">Аренда</a></li>
             <li><a href="#" class="menu__title">Закрытый клуб</a></li>
-            <li> <a href="#" class="menu__title">Подарочные сертификаты</a></li>
+            <li> <a href="./gift.html" class="menu__title">Подарочные сертификаты</a></li>
             <li> <a href="#" class="menu__title">Контакты</a></li>
           </ul>
           <a class="vizitka__tel" href="tel:+79236878609">+7 (923) 687-86-09</a>
+          <a class="vizitka__tel_img" href="tel:+79236878609">
+            <img src="/images/phone_logo.png" height="50">
+          </a>
         </div>
       </div>
     </nav>
 
-  </header>
-  <div class="popup" id="popup"></div>
+  </header> 
+  <div class="popup__menu" id="popup">
+   
+  </div>
+
+
   <section class="main">
     <img class="main__image" src="./images/tEVkQmXGbM4.jpg">
   </section>
@@ -99,10 +108,12 @@
       </div>
 
       <div class="table__cell">
+        <a href="./gift.html" class="table__href">
         <img class="table__image" src="./images/__9.svg">
         <h3 class="table__heading">Сертификаты</h3>
         <p class="table__text">В печатном и электронном виде,
           на номинальную сумму или определенное мероприятие</p>
+          </a>
       </div>
 
     </div>
@@ -139,19 +150,20 @@
       <div class="footer__column footer__column_content_copyright">
 
         <a href="#">
-          <img class="logo logo_place_footer" src="./images/2AAEB5E4-B492-4766-9.png" alt="Логотип">
+          <img class="logo logo_place_footer" src="./images/Sp_white.png" alt="Логотип">
         </a>
-        <p class="footer__address">Гагарина 14, БЦ "На Гагарина", 4 подъезд, 8 этаж, офис 8.1</p>
+         
+        <p class="footer__address">г.Омск, ул.Пушкина д.6</p>
       </div>
       <nav class="footer__column footer__column_content_info">
         <h3 class="footer__column-heading">О пространстве</h3>
         <ul class="footer__column-links">
-          <li><a href="#" class="footer__column-link opacity">Главная</a></li>
+          <li><a href="./index.html" class="footer__column-link opacity">Главная</a></li>
           <li><a href="#" class="footer__column-link opacity">Мастер-классы</a></li>
-          <li><a href="#" class="footer__column-link opacity">Расписание</a></li>
+          <li><a href="https://t.me/s_p_omsk" class="footer__column-link opacity">Расписание</a></li>
           <li><a href="./rent.html" class="footer__column-link opacity">Аренда</a></li>
-          <li><a href="#" class="footer__column-link opacity">Мероприятия</a></li>
-          <li><a href="#" class="footer__column-link opacity">Подарочные сертификаты</a></li>
+          <li><a href="#" class="footer__column-link opacity">Закрытый клуб</a></li>
+          <li><a href="./gift.html" class="footer__column-link opacity">Подарочные сертификаты</a></li>
           <li><a href="#" class="footer__column-link opacity">Контакты</a></li>
 
         </ul>
@@ -164,19 +176,19 @@
           <li>
             <a href="https://t.me/s_p_omsk" class="footer__column-link opacity">
               <img src="./images/icons8-телеграм.svg" height="16" alt="Телеграм" class="footer__social-icon">
-              Telegram
+             <p class="footer__social-text">Telegram</p> 
             </a>
           </li>
           <li>
             <a href="https://vk.com/s.p.omsk" class="footer__column-link opacity">
               <img src="./images/vk_color_white.svg" alt="Вконтакте" class="footer__social-icon">
-              Вконтакте
+              <p class="footer__social-text">Вконтакте</p> 
             </a>
           </li>
           <li>
             <a href="https://instagram.com/sp.omsk" class="footer__column-link opacity">
               <img src="./images/instagram_color_white.svg" alt="Инстаграм" class="footer__social-icon">
-              Instagram
+              <p class="footer__social-text">Instagram</p> 
             </a>
           </li>
         </ul>

@@ -4,3 +4,20 @@
     list-style-type:none;
     
 }
+
+
+@media (max-width: 600px) {
+    .footer__social-text {
+      display: none;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .footer__social-icon {
+      height: 18px;
+      margin-top: 7px;
+      margin-left: 20px;
+    }
+  }
+
+  

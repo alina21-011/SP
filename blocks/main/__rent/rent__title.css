@@ -1,9 +1,16 @@
 .rent__title {
     margin: 0;
-    text-align: start;
+    text-align: center;
     width: 30%;
     line-height: 1.15;
     font-weight: 900;
     font-size: 32px;
     color: black;
 }
+
+@media (max-width: 800px){
+    .rent__title {
+        font-size: 22px;
+        width: 100%;
+    }
+    }

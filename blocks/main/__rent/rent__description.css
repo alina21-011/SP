@@ -1,6 +1,8 @@
 .rent__description {
     display: grid;
     grid-template-columns: 40% 60%;
+    grid-column-gap: 70px;
+    padding-bottom: 30px;
 
 }
 
